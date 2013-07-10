@@ -2,10 +2,8 @@
 # Use 'createuser -s postgres' to create a general purpose db (super)user.
 
 development: &default
-  adapter: postgresql
-  encoding: unicode
-  database: spellpad_development
-  username: postgres
+  adapter: sqlite3
+  database: db/spellpad_development.sqlite3
   pool: 5
   timeout: 5000
 

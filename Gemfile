@@ -6,7 +6,7 @@ ruby '2.0.0'
 gem 'unicorn'
 gem 'rack-canonical-host'
 gem 'rails', '~> 4.0.0'
-gem 'pg'
+gem 'sqlite3'
 
 gem 'slim-rails'
 gem 'less-rails'
