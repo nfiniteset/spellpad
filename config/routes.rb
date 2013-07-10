@@ -1,5 +1,6 @@
 Spellpad::Application.routes.draw do
 
-  root to: 'pages#root'
+  root to: 'characters#index'
+  resources :characters, only: [:index, :new, :create]
 
 end
