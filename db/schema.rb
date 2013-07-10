@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130614053555) do
+ActiveRecord::Schema.define(version: 20130710191429) do
 
   create_table "character_classes", force: true do |t|
     t.string "name",                   null: false
@@ -48,6 +48,12 @@ ActiveRecord::Schema.define(version: 20130614053555) do
   end
 
   add_index "character_classes", ["name"], name: "class_name_index"
+
+  create_table "characters", force: true do |t|
+    t.string   "name",       null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "class_tables", force: true do |t|
     t.string "name",                  limit: nil, null: false
