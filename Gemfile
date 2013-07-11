@@ -37,6 +37,7 @@ group :test, :development do
   #gem 'cane'
   #gem 'morecane'
   #gem 'quiet_assets'
+  gem 'pry'
 end
 
 group :development do
