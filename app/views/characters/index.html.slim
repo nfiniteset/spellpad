@@ -1,4 +1,4 @@
 = link_to 'New Character', new_character_path
 ul
   - @characters.each do |c|
-    li = c.name
+    li = link_to c.name, character_path(c)

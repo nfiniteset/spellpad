@@ -7,6 +7,9 @@ class CharactersController < ApplicationController
     @character = Character.new
   end
 
+  def show
+    @character = Character.find params.require(:id)
+  end
 
   def create
     @character = Character.new(character_params)

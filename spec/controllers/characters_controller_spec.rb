@@ -19,6 +19,14 @@ describe CharactersController do
     end
   end
 
+  describe 'GET show' do
+    let(:character) { FactoryGirl.create :character }
+    it 'assigns the character' do
+      get :show, id: character.id
+      expect(assigns :character).to eq character
+    end
+  end
+
   describe 'GET new' do
     it 'assigns a new character' do
       get :new
