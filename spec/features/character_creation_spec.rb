@@ -2,6 +2,8 @@ require 'spec_helper'
 
 feature "Character creation" do
 
+  given!(:character_class) { FactoryGirl.create :character_class, name: 'Wizard' }
+
   scenario "creating a character" do
     visit root_path
     click_on 'New Character'

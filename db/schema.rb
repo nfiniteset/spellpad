@@ -50,7 +50,8 @@ ActiveRecord::Schema.define(version: 20130710191429) do
   add_index "character_classes", ["name"], name: "class_name_index"
 
   create_table "characters", force: true do |t|
-    t.string   "name",       null: false
+    t.integer  "character_class_id", null: false
+    t.string   "name",               null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
