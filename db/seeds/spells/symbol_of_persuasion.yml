@@ -1,0 +1,35 @@
+---
+:name: Symbol of Persuasion
+:altname: symbol of persuasion
+:school: Enchantment
+:subschool: Charm
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Cleric: '6'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, M
+:casting_time: 10 minutes
+:range: 0 ft.; see text
+:target: None
+:area: None
+:effect: One symbol
+:duration: See text
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Triggered rune charms nearby creatures.
+:to_develop: None
+:material_components: Mercury and phosphorus, plus powdered diamond and opal with
+  a total value of at least 5,000 gp.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

@@ -1,0 +1,38 @@
+---
+:name: Binding
+:altname: binding
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Sorcerer: '8'
+  Wizard: '8'
+:components: The components for a binding spell vary according to the version of the
+  spell, but they always include a continuous chanting utterance read from the scroll
+  or spellbook page containing the spell, somatic gestures, and materials appropriate
+  to the form of binding used. These components can include such items as miniature
+  chains of special metals, soporific herbs of the rarest sort (for slumber bindings),
+  a bell jar of the finest crystal, and the like.
+:casting_time: One minute
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One living creature
+:area: None
+:effect: None
+:duration: See text (D)
+:saving_throw: Will negates; see text
+:spell_resistance: 'Yes'
+:short_description: Utilizes an array of techniques to imprison a creature.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsA-B

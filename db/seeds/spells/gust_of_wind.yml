@@ -1,0 +1,35 @@
+---
+:name: Gust of Wind
+:altname: gust of wind
+:school: Evocation
+:subschool: None
+:descriptor: Air
+:spellcraft_dc: None
+:level:
+  Druid: '2'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S
+:casting_time: 1 standard action
+:range: 60 ft.
+:target: None
+:area: None
+:effect: Line-shaped gust of severe wind emanating out from you to the extreme of
+  the range
+:duration: 1 round
+:saving_throw: Fortitude negates
+:spell_resistance: 'Yes'
+:short_description: Blows away or knocks down smaller creatures.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

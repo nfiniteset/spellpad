@@ -1,0 +1,35 @@
+---
+:name: Rainbow Pattern
+:altname: rainbow pattern
+:school: Illusion
+:subschool: Pattern
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '4'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V (Brd only), S, M, F; see text
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: None
+:area: None
+:effect: Colorful lights with a 20-ft. -radius spread
+:duration: Concentration +1 round/level (D)
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Lights fascinate 24 HD of creatures.
+:to_develop: None
+:material_components: A piece of phosphor.
+:arcane_material_components: None
+:focus: A crystal prism.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: A wizard or sorcerer need not utter a sound to cast this spell,
+  but a bard must sing, play music, or recite a rhyme as a verbal component.
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

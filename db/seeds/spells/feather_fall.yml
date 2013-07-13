@@ -1,0 +1,35 @@
+---
+:name: Feather Fall
+:altname: feather fall
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '1'
+  Sorcerer: '1'
+  Wizard: '1'
+:components: V
+:casting_time: 1 free action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One Medium or smaller freefalling object or creature/level, no two of which
+  may be more than 20 ft. apart
+:area: None
+:effect: None
+:duration: Until landing or 1 round/level
+:saving_throw: Will negates (harmless) or Will negates (object)
+:spell_resistance: Yes (object)
+:short_description: Objects or creatures fall slowly.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

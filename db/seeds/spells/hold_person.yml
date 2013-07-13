@@ -1,0 +1,35 @@
+---
+:name: Hold Person
+:altname: hold person
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '2'
+  Cleric: '2'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, F/DF
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: One humanoid creature
+:area: None
+:effect: None
+:duration: 1 round/level (D); see text
+:saving_throw: Will negates; see text
+:spell_resistance: 'Yes'
+:short_description: Paralyzes one humanoid for 1 round/level.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: A small, straight piece of iron.
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

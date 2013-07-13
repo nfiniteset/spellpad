@@ -1,0 +1,33 @@
+---
+:name: Arcane Eye
+:altname: arcane eye
+:school: Divination
+:subschool: Scrying
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M
+:casting_time: 10 minutes
+:range: Unlimited
+:target: None
+:area: None
+:effect: Magical sensor
+:duration: 1 min./level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Invisible floating eye moves 30 ft./round.
+:to_develop: None
+:material_components: A bit of bat fur.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsA-B

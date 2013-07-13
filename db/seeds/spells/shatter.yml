@@ -1,0 +1,38 @@
+---
+:name: Shatter
+:altname: shatter
+:school: Evocation
+:subschool: None
+:descriptor: Sonic
+:spellcraft_dc: None
+:level:
+  Bard: '2'
+  Chaos: '2'
+  Cleric: '2'
+  Destruction: '2'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: 5-ft. -radius spread; or one solid object or one crystalline creature
+:area: 5-ft. -radius spread; or one solid object or one crystalline creature
+:effect: None
+:duration: Instantaneous
+:saving_throw: Will negates (object); Will negates (object) or Fortitude half; see
+  text
+:spell_resistance: Yes (object)
+:short_description: Sonic vibration damages objects or crystalline creatures.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A chip of mica.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

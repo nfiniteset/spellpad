@@ -1,0 +1,35 @@
+---
+:name: Invisibility
+:altname: invisibility
+:school: Illusion
+:subschool: Glamer
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '2'
+  Sorcerer: '2'
+  Wizard: '2'
+  Trickery: '2'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Personal or touch
+:target: You or a creature or object weighing no more than 100 lb./level
+:area: None
+:effect: None
+:duration: 1 min./level (D)
+:saving_throw: Will negates (harmless) or Will negates (harmless, object)
+:spell_resistance: Yes (harmless) or Yes (harmless, object)
+:short_description: Subject is invisible for 1 min./level or until it attacks.
+:to_develop: None
+:material_components: None
+:arcane_material_components: An eyelash encased in a bit of gum arabic.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

@@ -1,0 +1,37 @@
+---
+:name: Wind Wall
+:altname: wind wall
+:school: Evocation
+:subschool: None
+:descriptor: Air
+:spellcraft_dc: None
+:level:
+  Air: '2'
+  Cleric: '3'
+  Druid: '3'
+  Ranger: '2'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: None
+:area: None
+:effect: Wall up to 10 ft./level long and 5 ft./level high (S)
+:duration: 1 round/level
+:saving_throw: None; see text
+:spell_resistance: 'Yes'
+:short_description: Deflects arrows, smaller creatures, and gases.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A tiny fan and a feather of exotic origin.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

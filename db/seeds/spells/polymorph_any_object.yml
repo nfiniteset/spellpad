@@ -1,0 +1,34 @@
+---
+:name: Polymorph Any Object
+:altname: polymorph any object
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '8'
+  Wizard: '8'
+  Trickery: '8'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One creature, or one nonmagical object of up to 100 cu. ft./level
+:area: None
+:effect: None
+:duration: See text
+:saving_throw: Fortitude negates (object); see text
+:spell_resistance: Yes (object)
+:short_description: Changes any subject into anything else.
+:to_develop: None
+:material_components: An empty cocoon.
+:arcane_material_components: Mercury, gum arabic, and smoke.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

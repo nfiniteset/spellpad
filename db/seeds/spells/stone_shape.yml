@@ -1,0 +1,38 @@
+---
+:name: Stone Shape
+:altname: stone shape
+:school: Transmutation
+:subschool: None
+:descriptor: Earth
+:spellcraft_dc: None
+:level:
+  Cleric: '3'
+  Druid: '3'
+  Earth: '3'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Touch
+:target: Stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Sculpts stone into any shape.
+:to_develop: None
+:material_components: None
+:arcane_material_components: Soft clay, which must be worked into roughly the desired
+  shape of the stone object and then touched to the stone while the verbal component
+  is uttered.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

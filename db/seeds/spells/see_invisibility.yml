@@ -1,0 +1,34 @@
+---
+:name: See Invisibility
+:altname: see invisibility
+:school: Divination
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '3'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Personal
+:target: You
+:area: None
+:effect: None
+:duration: 10 min./level (D)
+:saving_throw: None
+:spell_resistance: None
+:short_description: Reveals invisible creatures or objects.
+:to_develop: None
+:material_components: A pinch of talc and a small sprinkling of powdered silver.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

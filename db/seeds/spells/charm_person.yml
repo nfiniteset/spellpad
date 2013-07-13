@@ -1,0 +1,34 @@
+---
+:name: Charm Person
+:altname: charm person
+:school: Enchantment
+:subschool: Charm
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '1'
+  Sorcerer: '1'
+  Wizard: '1'
+:components: V, S
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One humanoid creature
+:area: None
+:effect: None
+:duration: 1 hour/level
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Makes one person your friend.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsC

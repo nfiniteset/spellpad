@@ -1,0 +1,33 @@
+---
+:name: Weird
+:altname: weird
+:school: Illusion
+:subschool: Phantasm
+:descriptor: Fear, Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Sorcerer: '9'
+  Wizard: '9'
+:components: V, S
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: Any number of creatures, no two of which can be more than 30 ft. apart
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: Will disbelief (if interacted with), then Fortitude partial; see text
+:spell_resistance: 'Yes'
+:short_description: As phantasmal killer, but affects all within 30 ft.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

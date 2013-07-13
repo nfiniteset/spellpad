@@ -1,0 +1,33 @@
+---
+:name: Feeblemind
+:altname: feeblemind
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: One creature
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: Will negates; see text
+:spell_resistance: 'Yes'
+:short_description: Subject's Int and Cha drop to 1.
+:to_develop: None
+:material_components: A handful of clay, crystal, glass, or mineral spheres.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

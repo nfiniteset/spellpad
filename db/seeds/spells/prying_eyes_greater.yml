@@ -1,0 +1,33 @@
+---
+:name: Prying Eyes, Greater
+:altname: greater prying eyes
+:school: Divination
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '8'
+  Wizard: '8'
+:components: V, S, M
+:casting_time: 1 minute
+:range: One mile
+:target: None
+:area: None
+:effect: Ten or more levitating eyes
+:duration: 1 hour/level; see text (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: As prying eyes, but eyes have true seeing.
+:to_develop: None
+:material_components: A handful of crystal marbles.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

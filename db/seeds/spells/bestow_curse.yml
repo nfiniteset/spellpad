@@ -1,0 +1,35 @@
+---
+:name: Bestow Curse
+:altname: bestow curse
+:school: Necromancy
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '3'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S
+:casting_time: 1 standard action
+:range: Touch
+:target: Creature touched
+:area: None
+:effect: None
+:duration: Permanent
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: -6 to an ability score; -4 on attack rolls, saves, and checks;
+  or 50% chance of losing each action.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsA-B

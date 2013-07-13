@@ -1,0 +1,33 @@
+---
+:name: Dominate Monster
+:altname: dominate monster
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Sorcerer: '9'
+  Wizard: '9'
+:components: V, S
+:casting_time: 1 round
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One creature
+:area: None
+:effect: None
+:duration: One day/level
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: As dominate person, but any creature.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsD-E

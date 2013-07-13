@@ -1,0 +1,35 @@
+---
+:name: Move Earth
+:altname: move earth
+:school: Transmutation
+:subschool: None
+:descriptor: Earth
+:spellcraft_dc: None
+:level:
+  Druid: '6'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, M
+:casting_time: See text
+:range: Long (400 ft. + 40 ft./level)
+:target: None
+:area: Dirt in an area up to 750 ft. square and up to 10 ft. deep (S)
+:effect: None
+:duration: Instantaneous
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Digs trenches and build hills.
+:to_develop: None
+:material_components: A mixture of soils (clay, loam, and sand) in a small bag, and
+  an iron blade.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsM-O

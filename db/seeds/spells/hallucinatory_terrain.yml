@@ -1,0 +1,35 @@
+---
+:name: Hallucinatory Terrain
+:altname: hallucinatory terrain
+:school: Illusion
+:subschool: Glamer
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '4'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M
+:casting_time: 10 minutes
+:range: Long (400 ft. + 40 ft./level)
+:target: None
+:area: One 30-ft. cube/level (S)
+:effect: None
+:duration: 2 hours/level (D)
+:saving_throw: Will disbelief (if interacted with)
+:spell_resistance: 'No'
+:short_description: Makes one type of terrain appear like another (field into forest,
+  or the like).
+:to_develop: None
+:material_components: A stone, a twig, and a bit of green plant.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

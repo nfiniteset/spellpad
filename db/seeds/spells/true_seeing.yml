@@ -1,0 +1,37 @@
+---
+:name: True Seeing
+:altname: true seeing
+:school: Divination
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '5'
+  Druid: '7'
+  Knowledge: '5'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Touch
+:target: Creature touched
+:area: None
+:effect: None
+:duration: 1 min./level
+:saving_throw: Will negates (harmless)
+:spell_resistance: Yes (harmless)
+:short_description: Lets you see all things as they really are.
+:to_develop: None
+:material_components: An ointment for the eyes that costs 250 gp and is made from
+  mushroom powder, saffron, and fat.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

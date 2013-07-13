@@ -1,0 +1,33 @@
+---
+:name: Lightning Bolt
+:altname: lightning bolt
+:school: Evocation
+:subschool: None
+:descriptor: Electricity
+:spellcraft_dc: None
+:level:
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: 120 ft.
+:target: None
+:area: 120-ft. line
+:effect: None
+:duration: Instantaneous
+:saving_throw: Reflex half
+:spell_resistance: 'Yes'
+:short_description: Electricity deals 1d6/level damage.
+:to_develop: None
+:material_components: A bit of fur and an amber, crystal, or glass rod.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

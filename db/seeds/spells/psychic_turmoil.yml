@@ -1,0 +1,35 @@
+---
+:name: Psychic Turmoil
+:altname: psychic turmoil
+:school: Abjuration
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '5'
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: 40-ft. -radius emanation centered on a point in space
+:effect: None
+:duration: 1 round/level
+:saving_throw: Will partial; see text
+:spell_resistance: 'Yes'
+:short_description: Invisible field leeches psionic power points away.
+:to_develop: None
+:material_components: Five playing cards, which are torn in half when the spell is
+  cast.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 PsionicSpells

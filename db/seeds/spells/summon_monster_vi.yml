@@ -1,0 +1,35 @@
+---
+:name: Summon Monster VI
+:altname: summon monster VI
+:school: Conjuration
+:subschool: Summoning
+:descriptor: see text for summon monster I
+:spellcraft_dc: None
+:level:
+  Bard: '6'
+  Cleric: '6'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, F/DF
+:casting_time: 1 round
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: None
+:effect: One or more summoned creatures, no two of which can be more than 30 ft. apart
+:duration: 1 round/level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Calls extraplanar creature to fight for you.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: A tiny bag and a small (not necessarily lit) candle.
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

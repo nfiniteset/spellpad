@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: characters
+#
+#  id                 :integer          not null, primary key
+#  character_class_id :integer          not null
+#  name               :string(255)      not null
+#  created_at         :datetime
+#  updated_at         :datetime
+#
+
 class Character < ActiveRecord::Base
   belongs_to :character_class
   validates_presence_of :name

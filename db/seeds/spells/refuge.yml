@@ -1,0 +1,35 @@
+---
+:name: Refuge
+:altname: refuge
+:school: Conjuration
+:subschool: Teleportation
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '7'
+  Sorcerer: '9'
+  Wizard: '9'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Touch
+:target: Object touched
+:area: None
+:effect: None
+:duration: Permanent until discharged
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Alters item to transport its possessor to you.
+:to_develop: None
+:material_components: The specially prepared object, whose construction requires gems
+  worth 1,500 gp.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

@@ -1,0 +1,33 @@
+---
+:name: Reduce Person, Mass
+:altname: mass reduce person
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M
+:casting_time: 1 round
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One humanoid creature/level, no two of which can be more than 30 ft. apart
+:area: None
+:effect: None
+:duration: 1 min./level (D)
+:saving_throw: Fortitude negates
+:spell_resistance: 'Yes'
+:short_description: Reduces several creatures.
+:to_develop: None
+:material_components: A pinch of powdered iron.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

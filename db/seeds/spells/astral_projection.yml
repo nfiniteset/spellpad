@@ -1,0 +1,36 @@
+---
+:name: Astral Projection
+:altname: astral projection
+:school: Necromancy
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '9'
+  Sorcerer: '9'
+  Wizard: '9'
+  Travel: '9'
+:components: V, S, M
+:casting_time: 30 minutes
+:range: Touch
+:target: You plus one additional willing creature touched per two caster levels
+:area: None
+:effect: None
+:duration: See text
+:saving_throw: None
+:spell_resistance: 'Yes'
+:short_description: Projects you and companions onto Astral Plane.
+:to_develop: None
+:material_components: A jacinth worth at least 1,000 gp, plus a silver bar worth 5
+  gp for each person to be affected.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsA-B

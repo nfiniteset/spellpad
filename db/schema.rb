@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130710191429) do
+ActiveRecord::Schema.define(version: 20130713213258) do
 
   create_table "character_classes", force: true do |t|
     t.string   "name",       null: false
@@ -22,6 +22,56 @@ ActiveRecord::Schema.define(version: 20130710191429) do
   create_table "characters", force: true do |t|
     t.integer  "character_class_id", null: false
     t.string   "name",               null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "cleric_domains", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spell_levels", force: true do |t|
+    t.integer  "spell_id"
+    t.integer  "spell_class_id"
+    t.string   "spell_class_type"
+    t.integer  "level"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spells", force: true do |t|
+    t.string   "name"
+    t.string   "altname"
+    t.string   "school"
+    t.string   "subschool"
+    t.string   "descriptor"
+    t.string   "spellcraft_dc"
+    t.string   "level"
+    t.text     "components"
+    t.string   "casting_time"
+    t.string   "range"
+    t.string   "target"
+    t.string   "area"
+    t.string   "effect"
+    t.string   "duration"
+    t.string   "saving_throw"
+    t.string   "spell_resistance"
+    t.string   "short_description"
+    t.text     "to_develop"
+    t.text     "material_components"
+    t.string   "arcane_material_components"
+    t.text     "focus"
+    t.text     "xp_cost"
+    t.string   "arcane_focus"
+    t.string   "wizard_focus"
+    t.string   "verbal_components"
+    t.string   "sorcerer_focus"
+    t.string   "bard_focus"
+    t.string   "cleric_focus"
+    t.string   "druid_focus"
+    t.string   "reference"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

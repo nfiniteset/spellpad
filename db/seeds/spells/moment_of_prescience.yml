@@ -1,0 +1,34 @@
+---
+:name: Moment of Prescience
+:altname: moment of prescience
+:school: Divination
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Luck: '8'
+  Sorcerer: '8'
+  Wizard: '8'
+:components: V, S
+:casting_time: 1 standard action
+:range: Personal
+:target: You
+:area: None
+:effect: None
+:duration: 1 hour/level or until discharged
+:saving_throw: None
+:spell_resistance: None
+:short_description: You gain insight bonus on single attack roll, check, or save.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsM-O

@@ -1,0 +1,34 @@
+---
+:name: Demand
+:altname: demand
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Sorcerer: '8'
+  Wizard: '8'
+:components: V, S, M/DF
+:casting_time: 10 minutes
+:range: See text
+:target: One creature
+:area: None
+:effect: None
+:duration: 1 round; see text
+:saving_throw: Will partial
+:spell_resistance: 'Yes'
+:short_description: As sending, plus you can send suggestion.
+:to_develop: None
+:material_components: A short piece of copper wire and some small part of the subject-a
+  hair, a bit of nail, or the like.
+:arcane_material_components: A short piece of fine copper wire.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsD-E

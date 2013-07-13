@@ -1,0 +1,36 @@
+---
+:name: Contagion
+:altname: contagion
+:school: Necromancy
+:subschool: None
+:descriptor: Evil
+:spellcraft_dc: None
+:level:
+  Cleric: '3'
+  Destruction: '3'
+  Druid: '3'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S
+:casting_time: 1 standard action
+:range: Touch
+:target: Living creature touched
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: Fortitude negates
+:spell_resistance: 'Yes'
+:short_description: Infects subject with chosen disease.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsC

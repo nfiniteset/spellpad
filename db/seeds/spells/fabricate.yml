@@ -1,0 +1,34 @@
+---
+:name: Fabricate
+:altname: fabricate
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S, M
+:casting_time: See text
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: Up to 10 cu. ft./level; see text
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Transforms raw materials into finished items.
+:to_develop: None
+:material_components: The original material, which costs the same amount as the raw
+  materials required to craft the item to be created.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

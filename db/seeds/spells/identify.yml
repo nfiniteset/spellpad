@@ -1,0 +1,36 @@
+---
+:name: Identify
+:altname: identify
+:school: Divination
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '1'
+  Magic: '2'
+  Sorcerer: '1'
+  Wizard: '1'
+:components: V, S, M/DF
+:casting_time: 1 hour
+:range: Touch
+:target: One touched object
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Determines properties of magic item.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A pearl of at least 100 gp value, crushed and stirred
+  into wine with an owl feather; the infusion must be drunk prior to spellcasting.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

@@ -1,0 +1,33 @@
+---
+:name: Telekinesis
+:altname: telekinesis
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S
+:casting_time: 1 standard action
+:range: Long (400 ft. + 40 ft./level)
+:target: See text
+:area: None
+:effect: None
+:duration: Concentration (up to 1 round/level) or instantaneous; see text
+:saving_throw: Will negates (object) or None; see text
+:spell_resistance: Yes (object); see text
+:short_description: Moves object, attacks creature, or hurls object or creature.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

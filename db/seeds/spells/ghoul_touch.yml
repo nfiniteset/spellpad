@@ -1,0 +1,35 @@
+---
+:name: Ghoul Touch
+:altname: ghoul touch
+:school: Necromancy
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Touch
+:target: Living humanoid touched
+:area: None
+:effect: None
+:duration: 1d6+2 rounds
+:saving_throw: Fortitude negates
+:spell_resistance: 'Yes'
+:short_description: Paralyzes one subject, which exudes stEnch that makes those nearby
+  sickened.
+:to_develop: None
+:material_components: A small scrap of cloth taken from clothing worn by a ghoul,
+  or a pinch of earth from a ghoul's lair.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

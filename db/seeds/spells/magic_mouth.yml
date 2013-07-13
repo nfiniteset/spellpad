@@ -1,0 +1,34 @@
+---
+:name: Magic Mouth
+:altname: magic mouth
+:school: Illusion
+:subschool: Glamer
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '1'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One creature or object
+:area: None
+:effect: None
+:duration: Permanent until discharged
+:saving_throw: Will negates (object)
+:spell_resistance: Yes (object)
+:short_description: Speaks once when triggered.
+:to_develop: None
+:material_components: A small bit of honeycomb and jade dust worth 10 gp.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsM-O

@@ -1,0 +1,38 @@
+---
+:name: Protection from Evil
+:altname: protection from evil
+:school: Abjuration
+:subschool: None
+:descriptor: Good
+:spellcraft_dc: None
+:level:
+  Cleric: '1'
+  Good: '1'
+  Paladin: '1'
+  Sorcerer: '1'
+  Wizard: '1'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Touch
+:target: Creature touched
+:area: None
+:effect: None
+:duration: 1 min./level (D)
+:saving_throw: Will negates (harmless)
+:spell_resistance: No; see text
+:short_description: +2 to AC and saves, counter mind control, hedge out elementals
+  and outsiders.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A little powdered silver with which you trace a 3-foot
+  -diameter circle on the floor (or ground) around the creature to be warded.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

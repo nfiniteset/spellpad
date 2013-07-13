@@ -1,0 +1,34 @@
+---
+:name: Veil
+:altname: veil
+:school: Illusion
+:subschool: Glamer
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '6'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S
+:casting_time: 1 standard action
+:range: Long (400 ft. + 40 ft./level)
+:target: One or more creatures, no two of which can be more than 30 ft. apart
+:area: None
+:effect: None
+:duration: Concentration + 1 hour/level (D)
+:saving_throw: Will negates; see text
+:spell_resistance: Yes; see text
+:short_description: Changes appearance of group of creatures.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

@@ -1,0 +1,37 @@
+---
+:name: Fire Shield
+:altname: fire shield
+:school: Evocation
+:subschool: None
+:descriptor: Fire or Cold
+:spellcraft_dc: None
+:level:
+  Fire: '5'
+  Sorcerer: '4'
+  Wizard: '4'
+  Sun: '4'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Personal
+:target: You
+:area: None
+:effect: None
+:duration: 1 round/level (D)
+:saving_throw: None
+:spell_resistance: None
+:short_description: Creatures attacking you take fire damage; you're protected from
+  heat or cold.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A bit of phosphorus for the warm shield; a live firefly
+  or glowworm or the tail portions of four dead ones for the chill shield.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

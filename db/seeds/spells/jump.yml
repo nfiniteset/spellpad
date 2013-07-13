@@ -1,0 +1,36 @@
+---
+:name: Jump
+:altname: jump
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Druid: '1'
+  Ranger: '1'
+  Sorcerer: '1'
+  Wizard: '1'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Touch
+:target: Creature touched
+:area: None
+:effect: None
+:duration: 1 min./level (D)
+:saving_throw: Will negates (harmless)
+:spell_resistance: 'Yes'
+:short_description: Subject gets bonus on Jump checks.
+:to_develop: None
+:material_components: A grasshopper's hind leg, which you break when the spell is
+  cast.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

@@ -1,0 +1,34 @@
+---
+:name: Project Image
+:altname: project image
+:school: Illusion
+:subschool: Shadow
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '6'
+  Sorcerer: '7'
+  Wizard: '7'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: None
+:area: None
+:effect: One shadow duplicate
+:duration: 1 round/level (D)
+:saving_throw: Will disbelief (if interacted with)
+:spell_resistance: 'No'
+:short_description: Illusory double can talk and cast spells.
+:to_develop: None
+:material_components: A small replica of you (a doll), which costs 5 gp to create.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R
