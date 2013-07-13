@@ -1,0 +1,33 @@
+---
+:name: Shrink Item
+:altname: shrink item
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S
+:casting_time: 1 standard action
+:range: Touch
+:target: One touched object of up to 2 cu. ft./level
+:area: None
+:effect: None
+:duration: One day/level; see text
+:saving_throw: Will negates (object)
+:spell_resistance: Yes (object)
+:short_description: Object shrinks to one-sixteenth size.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

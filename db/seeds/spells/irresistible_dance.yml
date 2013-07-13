@@ -1,0 +1,34 @@
+---
+:name: Irresistible Dance
+:altname: irresistible dance
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '6'
+  Sorcerer: '8'
+  Wizard: '8'
+:components: V
+:casting_time: 1 standard action
+:range: Touch
+:target: Living creature touched
+:area: None
+:effect: None
+:duration: 1d4+1 rounds
+:saving_throw: None
+:spell_resistance: 'Yes'
+:short_description: Forces subject to dance.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

@@ -1,0 +1,39 @@
+---
+:name: Trap the Soul
+:altname: trap the soul
+:school: Conjuration
+:subschool: Summoning
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '8'
+  Wizard: '8'
+:components: V, S, M, (F); see text
+:casting_time: 1 standard action or see text
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One creature
+:area: None
+:effect: None
+:duration: Permanent; see text
+:saving_throw: See text
+:spell_resistance: Yes; see text
+:short_description: Imprisons subject within gem.
+:to_develop: None
+:material_components: Before the actual casting of trap the soul, you must procure
+  a gem of at least 1,000 gp value for every Hit Die possessed by the creature to
+  be trapped. If the gem is not valuable enough, it shatters when the entrapment is
+  attempted. (While creatures have no concept of level or Hit Dice as such, the value
+  of the gem needed to trap an individual can be researched. Remember that this value
+  can change over time as creatures gain more Hit Dice.)
+:arcane_material_components: None
+:focus: If the trigger object method is used, a special trigger object, prepared as
+  described above, is needed.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

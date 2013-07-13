@@ -1,0 +1,40 @@
+---
+:name: Scrying
+:altname: scrying
+:school: Divination
+:subschool: Scrying
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '3'
+  Cleric: '5'
+  Druid: '4'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M/DF, F
+:casting_time: 1 hour
+:range: See text
+:target: None
+:area: None
+:effect: Magical sensor
+:duration: 1 min./level
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Spies on subject from a distance.
+:to_develop: None
+:material_components: None
+:arcane_material_components: The eye of a hawk, an eagle, or a roc, plus nitric acid,
+  copper, and zinc.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: A mirror of finely wrought and highly polished silver costing not less
+  than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+:verbal_components: None
+:sorcerer_focus: A mirror of finely wrought and highly polished silver costing not
+  less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+:bard_focus: A mirror of finely wrought and highly polished silver costing not less
+  than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+:cleric_focus: A holy water font costing not less than 100 gp.
+:druid_focus: A natural pool of water.
+:reference: SRD 3.5 SpellsS

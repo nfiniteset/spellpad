@@ -1,0 +1,33 @@
+---
+:name: Freedom
+:altname: freedom
+:school: Abjuration
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '9'
+  Wizard: '9'
+:components: V, S
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels) or see text
+:target: One creature
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: Will negates (harmless)
+:spell_resistance: 'Yes'
+:short_description: Releases creature from imprisonment.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

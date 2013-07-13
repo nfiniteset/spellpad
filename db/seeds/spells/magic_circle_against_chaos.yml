@@ -1,0 +1,37 @@
+---
+:name: Magic Circle Against Chaos
+:altname: magic circle against chaos
+:school: Abjuration
+:subschool: None
+:descriptor: Lawful
+:spellcraft_dc: None
+:level:
+  Cleric: '3'
+  Law: '3'
+  Paladin: '3'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Touch
+:target: None
+:area: 10-ft. -radius emanation from touched creature
+:effect: None
+:duration: 10 min./level
+:saving_throw: Will negates (harmless)
+:spell_resistance: No; see text
+:short_description: As protection spells, but 10-ft. radius and 10 min./level.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A little powdered silver with which you trace a 3-footdiameter
+  circle on the floor (or ground) around the creature to be warded.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsM-O

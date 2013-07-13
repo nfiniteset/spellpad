@@ -1,0 +1,40 @@
+---
+:name: Scrying, Greater
+:altname: greater scrying
+:school: Divination
+:subschool: Scrying
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '6'
+  Cleric: '7'
+  Druid: '7'
+  Sorcerer: '7'
+  Wizard: '7'
+:components: V, S
+:casting_time: 1 standard action
+:range: See text
+:target: None
+:area: None
+:effect: Magical sensor
+:duration: 1 hour/level
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: As scrying, but faster and longer.
+:to_develop: None
+:material_components: None
+:arcane_material_components: The eye of a hawk, an eagle, or a roc, plus nitric acid,
+  copper, and zinc.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: A mirror of finely wrought and highly polished silver costing not less
+  than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+:verbal_components: None
+:sorcerer_focus: A mirror of finely wrought and highly polished silver costing not
+  less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+:bard_focus: A mirror of finely wrought and highly polished silver costing not less
+  than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+:cleric_focus: A holy water font costing not less than 100 gp.
+:druid_focus: A natural pool of water.
+:reference: SRD 3.5 SpellsS

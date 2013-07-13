@@ -1,0 +1,33 @@
+---
+:name: Polar Ray
+:altname: polar ray
+:school: Evocation
+:subschool: None
+:descriptor: Cold
+:spellcraft_dc: None
+:level:
+  Sorcerer: '8'
+  Wizard: '8'
+:components: V, S, F
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: None
+:effect: Ray
+:duration: Instantaneous
+:saving_throw: None
+:spell_resistance: 'Yes'
+:short_description: Ranged touch attack deals 1d6/level cold damage.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: A small, white ceramic cone or prism.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

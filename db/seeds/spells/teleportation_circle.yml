@@ -1,0 +1,33 @@
+---
+:name: Teleportation Circle
+:altname: teleportation circle
+:school: Conjuration
+:subschool: Teleportation
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '9'
+  Wizard: '9'
+:components: V, M
+:casting_time: 10 minutes
+:range: 0 ft.
+:target: None
+:area: None
+:effect: 5-ft. -radius circle that teleports those who activate it
+:duration: 10 min./level (D)
+:saving_throw: None
+:spell_resistance: 'Yes'
+:short_description: Circle teleports any creature inside to designated spot.
+:to_develop: None
+:material_components: Amber dust to cover the area of the circle (cost 1,000 gp).
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

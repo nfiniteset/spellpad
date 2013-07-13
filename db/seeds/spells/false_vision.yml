@@ -1,0 +1,36 @@
+---
+:name: False Vision
+:altname: false vision
+:school: Illusion
+:subschool: Glamer
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '5'
+  Sorcerer: '5'
+  Wizard: '5'
+  Trickery: '5'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Touch
+:target: None
+:area: 40-ft. -radius emanation
+:effect: None
+:duration: 1 hour/level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Fools scrying with an illusion.
+:to_develop: None
+:material_components: None
+:arcane_material_components: The ground dust of a piece of jade worth at least 250
+  gp, which is sprinkled into the air when the spell is cast.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

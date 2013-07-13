@@ -1,0 +1,36 @@
+---
+:name: Water Breathing
+:altname: water breathing
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '3'
+  Druid: '3'
+  Sorcerer: '3'
+  Wizard: '3'
+  Water: '3'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Touch
+:target: Living creatures touched
+:area: None
+:effect: None
+:duration: 2 hours/level; see text
+:saving_throw: Will negates (harmless)
+:spell_resistance: Yes (harmless)
+:short_description: Subjects can breathe underwater.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A short reed or piece of straw.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsT-Z

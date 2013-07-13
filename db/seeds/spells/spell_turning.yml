@@ -1,0 +1,35 @@
+---
+:name: Spell Turning
+:altname: spell turning
+:school: Abjuration
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Luck: '7'
+  Magic: '7'
+  Sorcerer: '7'
+  Wizard: '7'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Personal
+:target: You
+:area: None
+:effect: None
+:duration: Until expended or 10 min./level
+:saving_throw: None
+:spell_resistance: None
+:short_description: Reflect 1d4+6 spell levels back at caster.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A small silver mirror.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

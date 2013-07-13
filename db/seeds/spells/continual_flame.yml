@@ -1,0 +1,35 @@
+---
+:name: Continual Flame
+:altname: continual flame
+:school: Evocation
+:subschool: None
+:descriptor: Light
+:spellcraft_dc: None
+:level:
+  Cleric: '3'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Touch
+:target: Object touched
+:area: None
+:effect: Magical, heatless flame
+:duration: Permanent
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Makes a permanent, heatless torch.
+:to_develop: None
+:material_components: You sprinkle ruby dust (worth 50 gp) on the item that is to
+  carry the flame.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsC

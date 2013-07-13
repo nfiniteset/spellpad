@@ -1,0 +1,34 @@
+---
+:name: Hypnotism
+:altname: hypnotism
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '1'
+  Sorcerer: '1'
+  Wizard: '1'
+:components: V, S
+:casting_time: 1 round
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: Several living creatures, no two of which may be more than 30 ft. apart
+:effect: None
+:duration: 2d4 rounds (D)
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Fascinates 2d4 HD of creatures.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

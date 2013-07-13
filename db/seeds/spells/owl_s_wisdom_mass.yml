@@ -1,0 +1,35 @@
+---
+:name: Owl's Wisdom, Mass
+:altname: mass owl's wisdom
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '6'
+  Druid: '6'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, M/DF
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One creature/level, no two of which can be more than 30 ft. apart
+:area: None
+:effect: None
+:duration: 1 min./level
+:saving_throw: Will negates (harmless)
+:spell_resistance: 'Yes'
+:short_description: As owl's wisdom, affects one subject/level.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A few feathers, or a pinch of droppings, from an owl.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsM-O

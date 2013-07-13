@@ -1,0 +1,35 @@
+---
+:name: Major Image
+:altname: major image
+:school: Illusion
+:subschool: Figment
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '3'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, F
+:casting_time: 1 standard action
+:range: Long (400 ft. + 40 ft./level)
+:target: None
+:area: None
+:effect: Visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level
+  (S)
+:duration: Concentration + 3 rounds
+:saving_throw: Will disbelief (if interacted with)
+:spell_resistance: 'No'
+:short_description: As silent image, plus sound, smell and thermal effects.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: A bit of fleece.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsM-O

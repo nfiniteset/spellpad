@@ -1,0 +1,34 @@
+---
+:name: Phase Door
+:altname: phase door
+:school: Conjuration
+:subschool: Creation
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '7'
+  Wizard: '7'
+  Travel: '8'
+:components: V
+:casting_time: 1 standard action
+:range: 0 ft.
+:target: None
+:area: None
+:effect: Ethereal 5 ft. by 8 ft. opening, 10 ft. deep + 5 ft. deep per three levels
+:duration: One usage per two levels
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Creates an invisible passage through wood or stone.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

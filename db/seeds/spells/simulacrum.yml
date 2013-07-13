@@ -1,0 +1,36 @@
+---
+:name: Simulacrum
+:altname: simulacrum
+:school: Illusion
+:subschool: Shadow
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '7'
+  Wizard: '7'
+:components: V, S, M, XP
+:casting_time: 12 hours
+:range: 0 ft.
+:target: None
+:area: None
+:effect: One duplicate creature
+:duration: Instantaneous
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Creates partially real double of a creature.
+:to_develop: None
+:material_components: The spell is cast over the rough snow or ice form, and some
+  piece of the creature to be duplicated (hair, nail, or the like) must be placed
+  inside the snow or ice. Additionally, the spell requires powdered ruby worth 100
+  gp per HD of the simulacrum to be created.
+:arcane_material_components: None
+:focus: None
+:xp_cost: 100 XP per HD of the simulacrum to be created (minimum 1,000 XP).
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

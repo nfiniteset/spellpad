@@ -1,0 +1,34 @@
+---
+:name: Dream
+:altname: dream
+:school: Illusion
+:subschool: Phantasm
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '5'
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S
+:casting_time: 1 minute
+:range: Unlimited
+:target: One living creature touched
+:area: None
+:effect: None
+:duration: See text
+:saving_throw: None
+:spell_resistance: 'Yes'
+:short_description: Sends message to anyone sleeping.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsD-E

@@ -1,0 +1,35 @@
+---
+:name: Hideous Laughter
+:altname: hideous laughter
+:school: Enchantment
+:subschool: Compulsion
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '1'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, M
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: One creature; see text
+:area: None
+:effect: None
+:duration: 1 round/level
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Subject loses actions for 1 round/level.
+:to_develop: None
+:material_components: Tiny tarts that are thrown at the target and a feather that
+  is waved in the air.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

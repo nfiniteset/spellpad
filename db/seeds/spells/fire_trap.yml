@@ -1,0 +1,35 @@
+---
+:name: Fire Trap
+:altname: fire trap
+:school: Abjuration
+:subschool: None
+:descriptor: Fire
+:spellcraft_dc: None
+:level:
+  Druid: '2'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M
+:casting_time: 10 minutes
+:range: Touch
+:target: Object touched
+:area: None
+:effect: None
+:duration: Permanent until discharged (D)
+:saving_throw: Reflex half; see text
+:spell_resistance: 'Yes'
+:short_description: Opened object deals 1d4 damage +1/level.
+:to_develop: None
+:material_components: A half-pound of gold dust (cost 25 gp) sprinkled on the warded
+  object.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

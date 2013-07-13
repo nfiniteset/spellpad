@@ -1,0 +1,35 @@
+---
+:name: Gaseous Form
+:altname: gaseous form
+:school: Transmutation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Air: '3'
+  Bard: '3'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: S, M/DF
+:casting_time: 1 standard action
+:range: Touch
+:target: Willing corporeal creature touched
+:area: None
+:effect: None
+:duration: 2 min./level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Subject becomes insubstantial and can fly slowly.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A bit of gauze and a wisp of smoke.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsF-G

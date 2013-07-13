@@ -1,0 +1,35 @@
+---
+:name: Detect Thoughts
+:altname: detect thoughts
+:school: Divination
+:subschool: None
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '2'
+  Knowledge: '2'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V, S, F/DF
+:casting_time: 1 standard action
+:range: 60 ft.
+:target: None
+:area: Cone-shaped emanation
+:effect: None
+:duration: Concentration, up to 1 min./level (D)
+:saving_throw: Will negates; see text
+:spell_resistance: 'No'
+:short_description: Allows 'listening' to surface thoughts.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: A copper piece.
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsD-E

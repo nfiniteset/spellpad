@@ -1,0 +1,35 @@
+---
+:name: Hypnotic Pattern
+:altname: hypnotic pattern
+:school: Illusion
+:subschool: Pattern
+:descriptor: Mind-Affecting
+:spellcraft_dc: None
+:level:
+  Bard: '2'
+  Sorcerer: '2'
+  Wizard: '2'
+:components: V (Brd only), S, M; see text
+:casting_time: 1 standard action
+:range: Medium (100 ft. + 10 ft./level)
+:target: None
+:area: None
+:effect: Colorful lights in a 10-ft. -radius spread
+:duration: Concentration + 2 rounds
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Fascinates (2d4 + level) HD of creatures.
+:to_develop: None
+:material_components: A glowing stick of incense or a crystal rod filled with phosphorescent
+  material.
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

@@ -1,0 +1,36 @@
+---
+:name: Repulsion
+:altname: repulsion
+:school: Abjuration
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '7'
+  Protection: '7'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, F/DF
+:casting_time: 1 standard action
+:range: Up to 10 ft./level
+:target: None
+:area: Up to 10-ft. -radius/level emanation centered on you
+:effect: None
+:duration: 1 round/level (D)
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: Creatures can't approach you.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: A pair of small iron bars attached to two small canine statuettes,
+  one black and one white, the whole array worth 50 gp.
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

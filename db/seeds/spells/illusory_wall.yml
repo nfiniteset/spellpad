@@ -1,0 +1,33 @@
+---
+:name: Illusory Wall
+:altname: illusory wall
+:school: Illusion
+:subschool: Figment
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S
+:casting_time: 1 standard action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: None
+:effect: Image 1 ft. by 10 ft. by 10 ft.
+:duration: Permanent
+:saving_throw: Will disbelief (if interacted with)
+:spell_resistance: 'No'
+:short_description: Wall, floor, or ceiling looks real, but anything can pass through.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

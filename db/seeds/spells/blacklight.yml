@@ -1,0 +1,34 @@
+---
+:name: Blacklight
+:altname: blacklight
+:school: Evocation
+:subschool: None
+:descriptor: Darkness
+:spellcraft_dc: None
+:level:
+  Darkness: '3'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, M
+:casting_time: 1 action
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: A 20-ft. -radius emanation centered on a creature, object, or point in space
+:effect: None
+:duration: 1 round/level (D)
+:saving_throw: Will negates or none (object)
+:spell_resistance: Yes or no (object)
+:short_description: None
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 DivineDomainsandSpells

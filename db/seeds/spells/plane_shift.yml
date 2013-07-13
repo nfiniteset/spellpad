@@ -1,0 +1,35 @@
+---
+:name: Plane Shift
+:altname: plane shift
+:school: Conjuration
+:subschool: Teleportation
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Cleric: '5'
+  Sorcerer: '7'
+  Wizard: '7'
+:components: V, S, F
+:casting_time: 1 standard action
+:range: Touch
+:target: Creature touched, or up to eight willing creatures joining hands
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: Will negates
+:spell_resistance: 'Yes'
+:short_description: As many as eight subjects travel to another plane.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: A small, forked metal rod. The size and metal type dictates to which plane
+  of existence or alternate dimension the spell sends the affected creatures.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R

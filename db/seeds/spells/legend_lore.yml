@@ -1,0 +1,35 @@
+---
+:name: Legend Lore
+:altname: legend lore
+:school: Divination
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '4'
+  Knowledge: '7'
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, M, F
+:casting_time: See text
+:range: Personal
+:target: You
+:area: None
+:effect: None
+:duration: See text
+:saving_throw: None
+:spell_resistance: None
+:short_description: Lets you learn tales about a person, place, or thing.
+:to_develop: None
+:material_components: Incense worth at least 250 gp.
+:arcane_material_components: None
+:focus: Four strips of ivory (worth 50 gp each) formed into a rectangle.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

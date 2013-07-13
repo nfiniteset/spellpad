@@ -1,0 +1,35 @@
+---
+:name: Dimension Door
+:altname: dimension door
+:school: Conjuration
+:subschool: Teleportation
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '4'
+  Sorcerer: '4'
+  Wizard: '4'
+  Travel: '4'
+:components: V
+:casting_time: 1 standard action
+:range: Long (400 ft. + 40 ft./level)
+:target: You and touched objects or other touched willing creatures
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: None and Will negates (object)
+:spell_resistance: No and Yes (object)
+:short_description: Teleports you short distance.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsD-E

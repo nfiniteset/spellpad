@@ -1,0 +1,35 @@
+---
+:name: Contingency
+:altname: contingency
+:school: Evocation
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '6'
+  Wizard: '6'
+:components: V, S, M, F
+:casting_time: At least 10 minutes; see text
+:range: Personal
+:target: You
+:area: None
+:effect: None
+:duration: One day/level (D) or until discharged
+:saving_throw: None
+:spell_resistance: None
+:short_description: Sets trigger condition for another spell.
+:to_develop: None
+:material_components: That of the companion spell, plus quicksilver and an eyelash
+  of an ogre mage, rakshasa, or similar spell-using creature.
+:arcane_material_components: None
+:focus: A statuette of you carved from elephant ivory and decorated with gems (worth
+  at least 1,500 gp). You must carry the focus for the contingency to work.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsC

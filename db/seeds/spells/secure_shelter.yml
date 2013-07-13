@@ -1,0 +1,38 @@
+---
+:name: Secure Shelter
+:altname: secure shelter
+:school: Conjuration
+:subschool: Creation
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '4'
+  Sorcerer: '4'
+  Wizard: '4'
+:components: V, S, M, F; see text
+:casting_time: 10 minutes
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: None
+:area: None
+:effect: 20-ft. -square structure
+:duration: 2 hours/level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Creates sturdy cottage.
+:to_develop: None
+:material_components: A square chip of stone, crushed lime, a few grains of sand,
+  a sprinkling of water, and several splinters of wood. These must be augmented by
+  the components of the unseen servant spell (string and a bit of wood) if this benefit
+  is to be included.
+:arcane_material_components: None
+:focus: The focus of the alarm spell (silver wire and a tiny bell) if this benefit
+  is to be included.
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsS

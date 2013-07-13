@@ -1,0 +1,37 @@
+---
+:name: Break Enchantment
+:altname: break enchantment
+:school: Abjuration
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '4'
+  Cleric: '5'
+  Luck: '5'
+  Paladin: '4'
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S
+:casting_time: 1 minute
+:range: Close (25 ft. + 5 ft./2 levels)
+:target: Up to one creature per level, all within 30 ft. of each other
+:area: None
+:effect: None
+:duration: Instantaneous
+:saving_throw: See text
+:spell_resistance: 'No'
+:short_description: Frees subjects from enchantments, alterations, curses, and petrification.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsA-B

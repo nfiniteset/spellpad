@@ -1,0 +1,36 @@
+---
+:name: Light
+:altname: light
+:school: Evocation
+:subschool: None
+:descriptor: Light
+:spellcraft_dc: None
+:level:
+  Bard: '0'
+  Cleric: '0'
+  Druid: '0'
+  Sorcerer: '0'
+  Wizard: '0'
+:components: V, M/DF
+:casting_time: 1 standard action
+:range: Touch
+:target: Object touched
+:area: None
+:effect: None
+:duration: 10 min./level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Object shines like a torch.
+:to_develop: None
+:material_components: None
+:arcane_material_components: A firefly or a piece of phosphorescent moss.
+:focus: None
+:xp_cost: None
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsH-L

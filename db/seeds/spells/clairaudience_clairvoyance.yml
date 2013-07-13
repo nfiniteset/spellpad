@@ -1,0 +1,35 @@
+---
+:name: Clairaudience/Clairvoyance
+:altname: clairaudience/clairvoyance
+:school: Divination
+:subschool: Scrying
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Bard: '3'
+  Knowledge: '3'
+  Sorcerer: '3'
+  Wizard: '3'
+:components: V, S, F/DF
+:casting_time: 10 minutes
+:range: Long (400 ft. + 40 ft./level)
+:target: None
+:area: None
+:effect: Magical sensor
+:duration: 1 min./level (D)
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Hear or see at a distance for 1 min./level.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: None
+:arcane_focus: A small horn (for hearing) or a glass eye (for seeing).
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsC

@@ -1,0 +1,33 @@
+---
+:name: Permanency
+:altname: permanency
+:school: Universal
+:subschool: None
+:descriptor: None
+:spellcraft_dc: None
+:level:
+  Sorcerer: '5'
+  Wizard: '5'
+:components: V, S, XP
+:casting_time: 2 rounds
+:range: See text
+:target: See text
+:area: See text
+:effect: See text
+:duration: Permanent; see text
+:saving_throw: None
+:spell_resistance: 'No'
+:short_description: Makes certain spells permanent.
+:to_develop: None
+:material_components: None
+:arcane_material_components: None
+:focus: None
+:xp_cost: See tables above.
+:arcane_focus: None
+:wizard_focus: None
+:verbal_components: None
+:sorcerer_focus: None
+:bard_focus: None
+:cleric_focus: None
+:druid_focus: None
+:reference: SRD 3.5 SpellsP-R
