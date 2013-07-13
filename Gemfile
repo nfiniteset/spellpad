@@ -51,4 +51,5 @@ group :development do
   gem 'guard-livereload'
   gem 'rb-fsevent'
   gem 'growl'
+  gem 'annotate'
 end
