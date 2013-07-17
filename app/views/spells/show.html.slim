@@ -1,0 +1,10 @@
+h2 = @spell.name
+
+dl.dl-horizontal
+  dt Levels
+  dd
+    - @spell.spell_levels.each do |spell_level|
+      div = "#{spell_level.spell_class.name} #{spell_level.level}"
+  - @properties.each do |p|
+    dt = p.to_s.titleize
+    dd = @spell.send(p)

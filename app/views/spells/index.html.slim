@@ -1,1 +1,13 @@
 h1 Spells
+ul.unstyled
+- @spell_levels.each do |level, spell_levels|
+  li
+    h4
+      | Level 
+      = level
+    ul.unstyled
+    - spell_levels.map(&:spell).each do |spell|
+      li
+        = link_to spell.name, spell_path(spell)
+        |  
+        span.muted = spell.descriptor unless spell.descriptor == 'None'
