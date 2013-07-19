@@ -11,10 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130713213258) do
+ActiveRecord::Schema.define(version: 20130719042606) do
 
   create_table "character_classes", force: true do |t|
     t.string   "name",       null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "character_spells", force: true do |t|
+    t.integer  "character_id"
+    t.integer  "spell_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

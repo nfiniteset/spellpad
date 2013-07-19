@@ -21,5 +21,6 @@ feature "Browse spells" do
     expect(page).to have_content(wizard_spell.name)
 
     click_link wizard_spell.name
+    expect(page).to have_content(wizard_spell.name)
   end
 end
