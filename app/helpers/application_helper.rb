@@ -8,4 +8,7 @@ module ApplicationHelper
     "alert-#{alert_type}"
   end
 
+  def characters
+    Character.all
+  end
 end
