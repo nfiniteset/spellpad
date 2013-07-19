@@ -1,13 +1,19 @@
-h1 Spells
-ul.unstyled
-- @spell_levels.each do |level, spell_levels|
-  li
-    h4
-      | Level 
-      = level
-    ul.unstyled
-    - spell_levels.map(&:spell).each do |spell|
-      li
-        = link_to spell.name, spell_path(spell)
-        |  
-        span.muted = spell.descriptor unless spell.descriptor == 'None'
+h1 #{@spell_class.name} Spells
+
+ul.unstyled.levels
+  - @spell_class.spells_arrainged.each do |level_number, schools|
+    li
+      h4
+        | Level 
+        = level_number
+      table
+        tbody
+          - schools.each do |school, spells|
+            tr
+              th span="3"
+                h6.muted = school
+            - spells.each do |spell|
+              tr.known
+                td
+                  a.btn.btn-flat.input-large href=(spell_path(spell)) = " #{ spell.name } "
+                td.muted.input-xxlarge.elipsize = spell.short_description

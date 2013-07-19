@@ -1,0 +1,28 @@
+// Flat buttons
+// --------------------------------------------------
+
+// Make a button look like nothing at all
+.btn-flat,
+.btn-flat:active,
+.btn-flat[disabled] {
+  background-color: transparent;
+  background-image: none;
+  .box-shadow(none);
+  text-align: left;
+}
+.btn-flat {
+  border-color: transparent;
+  cursor: pointer;
+  color: @linkColor;
+  // .border-radius(0);
+}
+.btn-flat:hover,
+.btn-flat:focus {
+  // color: @linkColorHover;
+  background-color: @grayLighter;
+}
+.btn-flat[disabled]:hover,
+.btn-flat[disabled]:focus {
+  color: @grayDark;
+  text-decoration: none;
+}
