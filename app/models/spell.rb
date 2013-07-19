@@ -42,7 +42,7 @@ class Spell < ActiveRecord::Base
   has_many :spell_classes, through: :spell_levels
 
   def properties
-    hidden_properties = %w(id name level created_at updated_at)
+    hidden_properties = %w(id name altname level descriptor created_at updated_at)
     hidden_properties += blank_properties
     attributes.keys - hidden_properties
   end
