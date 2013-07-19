@@ -4,6 +4,7 @@ describe SpellsController do
   describe '#GET index' do
     describe 'with a character_class_id' do
       let(:wizard_class) { FactoryGirl.create :character_class, name: 'Wizard' }
+      let!(:character) { FactoryGirl.create :character, character_class: wizard_class }
 
       it 'assigns that character class' do
         get :index, character_class_id: wizard_class.id
