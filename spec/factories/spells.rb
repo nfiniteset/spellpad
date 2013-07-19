@@ -3,5 +3,6 @@
 FactoryGirl.define do
   factory :spell do
     name 'Flaming Sphere'
+    school 'Abjuration'
   end
 end

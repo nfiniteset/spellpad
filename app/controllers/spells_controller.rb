@@ -1,7 +1,7 @@
 class SpellsController < ApplicationController
 
   def index
-    @spell_levels = spell_class.spell_levels.by_level
+    @spell_class = spell_class
   end
 
   def show

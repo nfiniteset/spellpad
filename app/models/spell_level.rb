@@ -20,8 +20,4 @@ class SpellLevel < ActiveRecord::Base
   def self.for_class(spell_class)
     where(spell_class_id: spell_class.id, spell_class_type: spell_class.class.name)
   end
-
-  def self.by_level
-    order(:level).group_by(&:level)
-  end
 end
