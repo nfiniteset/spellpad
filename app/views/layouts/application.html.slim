@@ -17,7 +17,7 @@ html
                 - if current_user
                   li.dropdown
                     a.dropdown-toggle href='#' data-toggle='dropdown'
-                      = current_character.name
+                      = current_user.characters.empty? ? 'Characters' : current_character.name
                       b.caret
                     ul.dropdown-menu
                       - characters.each do |c|
