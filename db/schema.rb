@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130724005544) do
+ActiveRecord::Schema.define(version: 20130724010734) do
 
   create_table "character_classes", force: true do |t|
     t.string   "name",       null: false
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20130724005544) do
     t.string   "name",               null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "cleric_domains", force: true do |t|

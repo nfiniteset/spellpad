@@ -11,6 +11,7 @@
 
 class Character < ActiveRecord::Base
   belongs_to :character_class
+  belongs_to :user
   has_many :character_spells
   has_many :known_spells, through: :character_spells, source: :spell
 

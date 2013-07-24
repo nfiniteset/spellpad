@@ -1,6 +1,5 @@
 class CharactersController < ApplicationController
   def index
-    @characters = Character.all
   end
 
   def new
@@ -13,6 +12,7 @@ class CharactersController < ApplicationController
 
   def create
     @character = Character.new(character_params)
+    @character.user = current_user
     @character.character_class = CharacterClass.find_by_name('Wizard')
     @character.save!
     redirect_to characters_path

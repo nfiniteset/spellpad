@@ -12,16 +12,17 @@ html
         header.navbar.navbar-fixed-top
           nav.navbar-inner
             .container-fluid
+              a.brand href=(root_path) Spellpad
               ul.nav.pull-right
-                li.dropdown
-                  a.dropdown-toggle href='#' data-toggle='dropdown'
-                    | Characters
-                    b.caret
-                  ul.dropdown-menu
-                    - characters.each do |c|
-                      li = link_to c.name, character_path(c)
-                    li = link_to 'New Character', new_character_path
                 - if current_user
+                  li.dropdown
+                    a.dropdown-toggle href='#' data-toggle='dropdown'
+                      = current_character.name
+                      b.caret
+                    ul.dropdown-menu
+                      - characters.each do |c|
+                        li = link_to c.name, character_path(c)
+                      li = link_to 'New Character', new_character_path
                   li.dropdown
                     a.dropdown-toggle href='#' data-toggle='dropdown'
                       = current_user.email
