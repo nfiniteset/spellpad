@@ -1,12 +1,14 @@
 # == Schema Information
 #
-# Table name: characters
+# Table name: spell_levels
 #
-#  id                 :integer          not null, primary key
-#  character_class_id :integer          not null
-#  name               :string(255)      not null
-#  created_at         :datetime
-#  updated_at         :datetime
+#  id               :integer          not null, primary key
+#  spell_id         :integer
+#  spell_class_id   :integer
+#  spell_class_type :string(255)
+#  level            :integer
+#  created_at       :datetime
+#  updated_at       :datetime
 #
 
 require 'spec_helper'

@@ -21,8 +21,8 @@ class CharacterClass < ActiveRecord::Base
         .includes(:spell)
         .order(:level, 'spells.school')
         .group_by(&:level)
-        .map do |level_number, spell_levels| 
+        .map do |level_number, spell_levels|
           { level_number => spell_levels.map(&:spell).group_by(&:school) }
-        end.first
+        end.reduce({}, :merge)
   end
 end

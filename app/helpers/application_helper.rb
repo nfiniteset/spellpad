@@ -9,6 +9,10 @@ module ApplicationHelper
   end
 
   def characters
-    Character.all
+    current_user ? current_user.characters : []
+  end
+
+  def current_character
+    current_user.current_character
   end
 end

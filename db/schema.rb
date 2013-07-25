@@ -11,10 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130713213258) do
+ActiveRecord::Schema.define(version: 20130724144249) do
 
   create_table "character_classes", force: true do |t|
     t.string   "name",       null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "character_spells", force: true do |t|
+    t.integer  "character_id"
+    t.integer  "spell_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,6 +31,7 @@ ActiveRecord::Schema.define(version: 20130713213258) do
     t.string   "name",               null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "cleric_domains", force: true do |t|
@@ -75,5 +83,18 @@ ActiveRecord::Schema.define(version: 20130713213258) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "users", force: true do |t|
+    t.string   "email",                        null: false
+    t.string   "crypted_password"
+    t.string   "salt"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "remember_me_token"
+    t.datetime "remember_me_token_expires_at"
+    t.integer  "current_character_id"
+  end
+
+  add_index "users", ["remember_me_token"], name: "index_users_on_remember_me_token"
 
 end

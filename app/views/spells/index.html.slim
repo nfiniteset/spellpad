@@ -4,16 +4,24 @@ ul.unstyled.levels
   - @spell_class.spells_arrainged.each do |level_number, schools|
     li
       h4
-        | Level 
+        | Level #{' '}
         = level_number
       table
         tbody
           - schools.each do |school, spells|
             tr
-              th span="3"
+              th span="2"
                 h6.muted = school
             - spells.each do |spell|
-              tr.known
+              tr data-spell-id=(spell.id)
                 td
-                  a.btn.btn-flat.input-large href=(spell_path(spell)) = " #{ spell.name } "
+                  a.btn.btn-flat.input-large href=(spell_path(spell))
+                    i.icon-star-empty
+                    = " #{ spell.name } "
                 td.muted.input-xxlarge.elipsize = spell.short_description
+
+javascript:
+  var known_spell_ids = #{ @known_spell_ids.to_json };
+  _(known_spell_ids).each(function(spell_id){
+    $('[data-spell-id'+spell_id+']').add_class('.known');
+  });
