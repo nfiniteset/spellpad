@@ -1,5 +1,10 @@
 class CharactersController < ApplicationController
   def index
+    if current_user.current_character.nil?
+      redirect_to new_character_path
+    else
+      redirect_to character_path(current_user.current_character)
+    end
   end
 
   def new
@@ -8,6 +13,8 @@ class CharactersController < ApplicationController
 
   def show
     @character = Character.find params.require(:id)
+    current_user.current_character = @character
+    current_user.save!
   end
 
   def create

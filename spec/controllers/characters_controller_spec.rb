@@ -1,30 +1,44 @@
 require 'spec_helper'
 
 describe CharactersController do
+  let(:user) { FactoryGirl.create :user }
   before do
     FactoryGirl.create :character_class, name: 'Wizard'
+    login_user(user)
   end
 
   describe 'GET index' do
-    let(:character) { FactoryGirl.create :character }
+    describe 'with a character' do
+      let!(:character) { FactoryGirl.create :character, user: user }
 
-    it 'is successful' do
-      get :index
-      expect(response).to be_success
+      subject { get :index }
+
+      it 'redirects to current character page' do
+        expect(subject).to redirect_to character_path(user.current_character)
+      end
     end
 
-    it 'assigns characters' do
-      get :index
-      expect(assigns :characters).to include character
+    describe 'without a character' do
+      subject { get :index }
+
+      it 'redirects to new character page' do
+        expect(subject).to redirect_to new_character_path
+      end
     end
   end
 
   describe 'GET show' do
-    let(:character) { FactoryGirl.create :character }
+    let(:character) { FactoryGirl.create :character, user: user }
     it 'assigns the character' do
       get :show, id: character.id
       expect(assigns :character).to eq character
     end
+
+    it "saves the character as the current user's current character" do
+      get :show, id: character.id
+      expect(assigns :character).to eq character
+    end
+
   end
 
   describe 'GET new' do
@@ -36,7 +50,7 @@ describe CharactersController do
 
   describe 'POST create' do
     describe 'with valid params' do
-      let(:character_attrs) { FactoryGirl.build(:character).attributes }
+      let(:character_attrs) { FactoryGirl.build(:character, user: user).attributes }
 
       it 'creates the character' do
         expect do
@@ -53,7 +67,7 @@ describe CharactersController do
     end
 
     describe 'with invalid params' do
-      let(:character_attrs) { FactoryGirl.build(:character).attributes.except('name') }
+      let(:character_attrs) { FactoryGirl.build(:character, user: user).attributes.except('name') }
 
       it 'rerenders the new page' do
         post :create, character: character_attrs

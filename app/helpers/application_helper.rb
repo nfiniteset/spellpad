@@ -13,6 +13,6 @@ module ApplicationHelper
   end
 
   def current_character
-    Character.first
+    current_user.current_character
   end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130724010734) do
+ActiveRecord::Schema.define(version: 20130724144249) do
 
   create_table "character_classes", force: true do |t|
     t.string   "name",       null: false
@@ -92,6 +92,7 @@ ActiveRecord::Schema.define(version: 20130724010734) do
     t.datetime "updated_at"
     t.string   "remember_me_token"
     t.datetime "remember_me_token_expires_at"
+    t.integer  "current_character_id"
   end
 
   add_index "users", ["remember_me_token"], name: "index_users_on_remember_me_token"
