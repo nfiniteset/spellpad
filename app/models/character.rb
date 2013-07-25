@@ -7,6 +7,7 @@
 #  name               :string(255)      not null
 #  created_at         :datetime
 #  updated_at         :datetime
+#  user_id            :integer
 #
 
 class Character < ActiveRecord::Base
