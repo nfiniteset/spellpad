@@ -7,4 +7,13 @@ class ApplicationController < ActionController::Base
   def not_authenticated
     redirect_to sign_in_url
   end
+
+  def spell_class
+    if params[:character_class_id]
+      CharacterClass.find(params[:character_class_id])
+    elsif params[:character_id]
+      character = Character.find(params[:character_id])
+      character.character_class
+    end
+  end
 end
