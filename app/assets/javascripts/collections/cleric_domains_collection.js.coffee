@@ -1,4 +1,4 @@
-class window.SPClericDomainsCollection extends FrameworkCollection
+class window.SPClericDomainsCollection extends SPCollection
 
   url: ->
     "/api/cleric_domains/"

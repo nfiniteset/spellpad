@@ -1,9 +1,6 @@
-class window.FrameworkApplication extends Backbone.Router
+class window.SPApplication extends Marionette.Application
 
-  initialize: () ->
-    @initCollections(@collections)
-
-  initCollections: (collections) ->
+  addCollections: (collections) ->
     @namespaces = []
     for namespace, Collection of collections
       @namespaces.push namespace

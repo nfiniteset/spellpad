@@ -1,4 +1,4 @@
-class window.FrameworkCollection extends Backbone.Collection
+class window.SPCollection extends Backbone.Collection
 
   initialize: (models, options) ->
     { @app, @namespace } = options

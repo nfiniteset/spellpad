@@ -1,8 +1,9 @@
 class SpellsController < ApplicationController
 
   def index
-    @spell_class = spell_class
-    @known_spell_ids = current_user.current_character.known_spells.map(&:id)
+    if current_user.current_character.nil?
+      redirect_to new_character_path
+    end
   end
 
   def show

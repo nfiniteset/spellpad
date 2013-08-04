@@ -1,4 +1,4 @@
-class window.SPCharacterClassesCollection extends FrameworkCollection
+class window.SPCharacterClassesCollection extends SPCollection
 
   url: ->
     "/api/character_classes/"

@@ -1,12 +1,4 @@
 class CharactersController < ApplicationController
-  def index
-    if current_user.current_character.nil?
-      redirect_to new_character_path
-    else
-      redirect_to character_path(current_user.current_character)
-    end
-  end
-
   def new
     @character = Character.new
   end
