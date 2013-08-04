@@ -1,0 +1,11 @@
+<a href="#spells/">All spells</a>
+<h2>{{ name }}</h2>
+<p class="muted">{{ descriptor }}</p>
+<p class="muted">{{ short_description }}</p>
+
+<dl class="dl-horizontal">
+  {{#each properties}}
+    <dt>{{ label }}</dt>
+    <dd>{{ value }}</dd>
+  {{/each}}
+</dl>

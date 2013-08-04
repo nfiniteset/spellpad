@@ -23,8 +23,8 @@ Spellpad::Application.routes.draw do
       resources :spells, only: [:index]
     end
     resources :spells, only: [:show]
-    resources :characters, only: [:show]
+    resource :current_character, only: [:show]
+    resources :characters, only: [:show, :index]
   end
 
 end
-

@@ -1,4 +1,5 @@
 #= require views/spells/index_view
+#= require views/spells/show_view
 
 class window.SPApplicationController
 
@@ -19,4 +20,7 @@ class window.SPApplicationController
     console.log 'knownSpellsIndex'
 
   spellsShow: (spellId) ->
-    console.log 'spellsShow: ' + spellId
+    spell = Spellpad.spells.get(spellId)
+    view = new SPSpellsShowView
+      model: spell
+    Spellpad.contentRegion.show view
