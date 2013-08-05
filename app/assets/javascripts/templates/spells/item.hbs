@@ -1,9 +1,9 @@
 <td>
-  <a class="btn btn-flat input-large" href="#spells/{{ id }}">
-    <i class="icon-star-empty"></i>
+  <a class="toggle-known btn btn-flat input-large" href="#">
+    <i class="icon-star{{#unless known}}-empty{{/unless}}"></i>
     {{ name }}
   </a>
 </td>
 <td>
-  <span class="muted input-xxlarge elipsize">{{ short_description }}</span>
+  <a class="btn btn-flat input-xxlarge elipsize" href="#spells/{{ id }}">{{ short_description }}</a>
 </td>

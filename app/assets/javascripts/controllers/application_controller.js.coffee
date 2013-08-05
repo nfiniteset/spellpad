@@ -11,7 +11,7 @@ class window.SPApplicationController
     Spellpad.contentRegion.show spellsLayout
 
     spellsCollectionView = new SPSpellsCollectionView
-      character: @model
+      character: @character
       collection: Spellpad.spells
 
     spellsLayout.collectionRegion.show spellsCollectionView

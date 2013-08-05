@@ -2,6 +2,7 @@ window.Spellpad = new SPApplication()
 
 Spellpad.addInitializer (options) ->
   new SPCharacter(id: 1).fetch success: (character) =>
+    Spellpad.current_character = character
     Spellpad.spells.fetch success: (results) ->
     @router = new SPApplicationRouter
       controller: new SPApplicationController

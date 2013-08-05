@@ -24,7 +24,9 @@ Spellpad::Application.routes.draw do
     end
     resources :spells, only: [:show]
     resource :current_character, only: [:show]
-    resources :characters, only: [:show, :index]
+    resources :characters, only: [:show, :index] do
+      resources :known_spells, only: [:create]
+    end
   end
 
 end
