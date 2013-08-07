@@ -1,0 +1,1 @@
+class window.SPApplicationView extends Marionette.View
