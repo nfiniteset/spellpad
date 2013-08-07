@@ -1,1 +1,7 @@
-p spell item view
+td
+  a.toggle-known.btn.btn-flat.input-large href="#"
+    i class="icon-star{{#unless known}}-empty{{/unless}}"
+    | {{ name }}
+td
+  a.btn.btn-flat.input-xxlarge.elipsize href="#spells/{{ id }}"
+    | {{ short_description }}

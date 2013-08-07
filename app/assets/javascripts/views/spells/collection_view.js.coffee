@@ -1,8 +1,7 @@
 #= require views/spells/item_view
 
-class window.SPSpellsCollectionView extends Marionette.CompositeView
+class window.SPSpellsCollectionView extends Marionette.CollectionView
 
+  tagName: 'table'
   itemView: SPSpellsItemView
-  itemViewContainer: '#spells-items'
-  template: 'spells/collection'
   
