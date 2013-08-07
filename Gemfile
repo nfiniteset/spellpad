@@ -13,12 +13,14 @@ gem 'less-rails'
 gem 'less-rails-bootstrap'
 gem 'jquery-rails'
 gem 'coffee-rails'
+gem 'handlebars_assets'
 gem 'simple_form', '~> 3.0.0.rc'
 gem 'uglifier'
 gem 'sorcery'
 gem 'active_model_serializers'
 
 gem 'awesome_print'
+
 
 # Heroku suggests that these gems aren't necessary, but they're required to compile less assets on deploy.
 gem 'therubyracer', platforms: :ruby

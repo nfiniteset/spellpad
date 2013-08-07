@@ -2,4 +2,5 @@
 //= require underscore
 //= require backbone
 //= require marionette
+//= require handlebars.runtime.js
 //= require twitter/bootstrap/dropdown

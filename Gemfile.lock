@@ -113,6 +113,10 @@ GEM
     guard-rspec (3.0.2)
       guard (>= 1.8)
       rspec (~> 2.13)
+    handlebars_assets (0.14.1)
+      execjs (>= 1.2.9)
+      sprockets (>= 2.0.3)
+      tilt
     hike (1.2.3)
     http_parser.rb (0.5.3)
     httpauth (0.2.0)
@@ -281,6 +285,7 @@ DEPENDENCIES
   guard-jasmine
   guard-livereload
   guard-rspec
+  handlebars_assets
   jasminerice!
   jquery-rails
   launchy
