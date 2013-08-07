@@ -5,6 +5,9 @@ window.Spellpad = new SPSpellpad();
 
 Spellpad.addCollections
   spells: SPSpellsCollection
+  spell_levels: SPSpellLevelsCollection
+  character_classes: SPCharacterClassesCollection
+  cleric_domains: SPClericDomainsCollection
 
 Spellpad.addRegions
   headerRegion: '#header'

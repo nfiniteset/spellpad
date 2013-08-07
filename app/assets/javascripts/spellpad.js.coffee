@@ -4,7 +4,7 @@ class window.SPSpellpad extends Marionette.Application
 
   addCollections: (collections) ->
     for namespace, Collection of collections
-      collection = new Collection(namespace: namespace)
+      collection = new Collection([], app: @, namespace: namespace)
       @[namespace+'Collection'] = collection    
 
   addControllers: (controllers) ->

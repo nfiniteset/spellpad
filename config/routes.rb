@@ -18,5 +18,8 @@ Spellpad::Application.routes.draw do
 
   resources :spells, only: [:show]
 
-end
+  namespace :api do
+    resources :spells, only: [:index]
+  end
 
+end

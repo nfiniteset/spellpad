@@ -2,5 +2,4 @@
 
 class window.SPSpellsCollection extends SPCollection
 
-  initialize: ->
-    @add new Backbone.Model
+  url: '/api/spells/'
