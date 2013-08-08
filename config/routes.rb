@@ -20,6 +20,7 @@ Spellpad::Application.routes.draw do
 
   namespace :api do
     resources :spells, only: [:index]
+    resources :user_sessions, only: [:index]
   end
 
 end
