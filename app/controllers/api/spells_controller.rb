@@ -1,6 +1,5 @@
 module Api
-  class SpellsController < ApplicationController
-    respond_to :json
+  class SpellsController < ApiController
 
     def index
       respond_with Spell.limit(10)
