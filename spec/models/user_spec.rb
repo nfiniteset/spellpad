@@ -34,6 +34,7 @@ describe User do
     end
 
     describe 'with a current character' do
+      let!(:previous_character) { FactoryGirl.create :character, user: user }
       let(:character) { FactoryGirl.create :character, user: user }
       before do
         user.current_character = character

@@ -25,7 +25,11 @@ class User < ActiveRecord::Base
   validates_uniqueness_of :email
 
   def current_character
-    @current_character = read_attribute(:current_character)
-    @current_character ||= characters.first
+    current_char_relation = characters.where(id: current_character_id)
+    if current_char_relation.present?
+      current_char_relation.first
+    elsif characters.present?
+      characters.first
+    end
   end
 end
