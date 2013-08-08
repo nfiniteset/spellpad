@@ -1,10 +1,12 @@
 #= require_tree ./marionette_overrides
+#= require util/parser
 
 class window.SPSpellpad extends Marionette.Application
 
   addCollections: (collections) ->
+    parser = new SPParser(@)
     for namespace, Collection of collections
-      collection = new Collection([], app: @, namespace: namespace)
+      collection = new Collection([], app: @, namespace: namespace, parser: parser)
       @[namespace+'Collection'] = collection    
 
   addControllers: (controllers) ->
