@@ -4,5 +4,6 @@ module Api
     def index
       respond_with Spell.limit(10)
     end
+
   end
 end

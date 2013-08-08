@@ -20,9 +20,6 @@ class window.SPSpellpad extends Marionette.Application
     for namespace, Router of routers
       @[namespace+'Router'] = new Router(controller: @[namespace+'Controller'])
 
-
-
-
 window.Spellpad = new SPSpellpad();
 
 Spellpad.addCollections
@@ -43,8 +40,9 @@ Spellpad.addRouters
   spells: SPSpellsRouter
 
 Spellpad.addInitializer (options) ->
-  Spellpad.currentUser = new SPUser().fetch
+  new SPUser().fetch
     success: (user) ->
+      Spellpad.currentUser = user
       headerView = new SPHeaderView model: user
       Spellpad.headerRegion.show(headerView)
   Backbone.history.start()

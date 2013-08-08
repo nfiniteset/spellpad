@@ -5,5 +5,5 @@ class window.SPUser extends SPModel
   parse: (response) ->
     user = response.user_session.current_user
     user.characters = response.characters
-    user.current_character = _(user.characters).find (c) -> c.id == user.current_character.id
+    user.current_character = new SPCharacter _(user.characters).find (c) -> c.id == user.current_character.id
     user
