@@ -22,7 +22,7 @@ class CharactersController < ApplicationController
     @character.user = current_user
     @character.character_class = CharacterClass.find_by_name('Wizard')
     @character.save!
-    redirect_to characters_path
+    redirect_to character_path(@character)
   rescue
     flash[:error] = 'The character could not be created'
     render :new

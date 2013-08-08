@@ -28,7 +28,12 @@ describe CharactersController do
   end
 
   describe 'GET show' do
+    let!(:prev_character) { FactoryGirl.create :character, user: user }
     let(:character) { FactoryGirl.create :character, user: user }
+    before do
+      controller.stub(:current_user).and_return(user)
+    end
+
     it 'assigns the character' do
       get :show, id: character.id
       expect(assigns :character).to eq character
@@ -36,7 +41,7 @@ describe CharactersController do
 
     it "saves the character as the current user's current character" do
       get :show, id: character.id
-      expect(assigns :character).to eq character
+      expect(user.current_character).to eq character
     end
 
   end
@@ -56,7 +61,7 @@ describe CharactersController do
         expect do
           post :create, character: character_attrs
         end.to change { Character.count }.by 1
-        expect(subject).to redirect_to characters_path
+        expect(subject).to redirect_to character_path(Character.last)
       end
 
       it 'sets the character_class to Wizard' do
