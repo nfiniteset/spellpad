@@ -15,16 +15,15 @@ Spellpad.addRegions
 
 Spellpad.addControllers
   spells: SPSpellsController
-  # SPKnownSpellsController
-  # SPTodaysSpellsController
 
 Spellpad.addRouters
   spells: SPSpellsRouter
 
 Spellpad.addInitializer (options) ->
-  headerView = new SPHeaderView
-
-  Spellpad.headerRegion.show(headerView)
+  Spellpad.currentUser = new SPUser().fetch
+    success: (user) ->
+      headerView = new SPHeaderView model: user
+      Spellpad.headerRegion.show(headerView)
 
 Spellpad.addInitializer (options) ->
   Spellpad.spellsRouter.navigate 'spells', { trigger: true }

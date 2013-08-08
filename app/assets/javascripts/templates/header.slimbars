@@ -1,1 +1,22 @@
-p Header
+a.brand href="#/" Spellpad
+ul.nav.pull-right
+  li.dropdown.characters-menu
+    a.dropdown-toggle.characters-menu-toggle href='#' data-toggle='dropdown'
+      | {{ current_character.name }}
+      b.caret
+    ul.dropdown-menu.characters-menu-options
+      | {{#each characters}}
+      li
+        a href="/characters/{{ id }}" {{ name }}
+      |  {{/each}}
+      li
+        a href="/characters/new" New Character
+  li.dropdown
+    a.dropdown-toggle href='#' data-toggle='dropdown'
+      | {{ email }}
+      b.caret
+    ul.dropdown-menu
+      li
+        a href="/sign_out" Sign Out
+  /- else
+    li= link_to 'Sign In', sign_in_path
