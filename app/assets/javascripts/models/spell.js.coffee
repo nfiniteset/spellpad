@@ -1,6 +1,6 @@
 #= require models/model
 
-class window.SPSpell extends SPModel
+window.SPSpell = SPModel.extend
 
   parse: (response) ->
     known_spells = @currentUser().get('current_character').get('known_spells')

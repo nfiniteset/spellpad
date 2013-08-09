@@ -4,8 +4,15 @@ module Api
     def create
       @character_spell = CharacterSpell.new character_spell_params
       @character_spell.save!
-      #MYSTERY Why do I need this location argument?
-      respond_with @character_spell, location: ''
+      respond_with @character_spell, location: nil
+    rescue
+      head :bad_request
+    end
+
+    def destroy
+      @character_spell = CharacterSpell.find params[:id]
+      @character_spell.destroy
+      respond_with @character_spell, location: nil
     rescue
       head :bad_request
     end

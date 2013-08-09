@@ -7,9 +7,11 @@ class window.SPSpellsItemView extends Marionette.ItemView
     'click .toggle-known': 'toggleKnown'
 
   modelEvents:
-    'change': 'render'
+    'all': 'render'
 
   toggleKnown: () ->
-    unless @model.get('known')
-      current_character = @model.currentUser().get('current_character')
+    current_character = @model.currentUser().get('current_character')
+    if @model.get('known')
+      current_character.destroyKnownSpell(@model)
+    else
       current_character.createKnownSpell(@model)
