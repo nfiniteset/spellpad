@@ -1,4 +1,4 @@
-class window.SPModel extends Backbone.Model
+class window.SPModel extends Backbone.RelationalModel
 
   initialize: (attributes, options) ->
     super

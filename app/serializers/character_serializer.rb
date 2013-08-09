@@ -3,5 +3,6 @@ class CharacterSerializer < ActiveModel::Serializer
 
   attributes :name, :id
   has_one :character_class
-  has_many :known_spells, :spells
+  has_many :character_spells, key: :known_spells, embed: :object
+  has_many :spells
 end
