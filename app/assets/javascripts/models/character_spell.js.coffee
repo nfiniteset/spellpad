@@ -8,8 +8,9 @@ window.SPCharacterSpell = SPModel.extend
     {
       type: Backbone.HasOne
       key: 'spell'
+      keySource: 'spell_id'
       relatedModel: SPSpell
-      relatedCollection: SPSpellsCollection
+      relatedCollection: 'spellsCollection'
       reverseRelation:
         key: 'character_spell'
         type: Backbone.HasOne

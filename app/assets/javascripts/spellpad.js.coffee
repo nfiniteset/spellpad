@@ -21,6 +21,7 @@ class window.SPSpellpad extends Marionette.Application
       @[namespace+'Router'] = new Router(controller: @[namespace+'Controller'])
 
 window.Spellpad = new SPSpellpad();
+Backbone.Relational.store.addModelScope 'Spellpad'
 
 Spellpad.addCollections
   spells: SPSpellsCollection
