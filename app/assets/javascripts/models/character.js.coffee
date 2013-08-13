@@ -1,26 +1,28 @@
-#= require models/known_spell
+#= require models/character_spell
 
 class window.SPCharacter extends SPModel
 
   relations: [
     {
       type: Backbone.HasMany
-      key: 'known_spells'
-      relatedModel: 'SPKnownSpell'
-      relatedCollection: 'SPKnownSpellsCollection'
+      key: 'character_spells'
+      relatedModel: 'SPCharacterSpell'
+      relatedCollection: 'SPCharacterSpellsCollection'
     }
   ]
 
-  createKnownSpell: (spell) ->
-    known_spell_attrs = { character_id: @get('id'), spell_id: spell.get('id') }
-    @get('known_spells').create known_spell_attrs,
-      success: (known_spell) ->
-        spell.set('known', known_spell)
+  createCharacterSpell: (spell) ->
+    character_spell_attrs = { character_id: @get('id'), spell_id: spell.get('id') }
+    @get('character_spells').create character_spell_attrs,
+      success: (character_spell) ->
+        spell.set('known', true)
       error: ->
-        throw "Couldn't create known spell."
+        throw "Couldn't create character spell."
 
-  destroyKnownSpell: (spell) ->
-    spell.get('known').destroy
+  destroyCharacterSpell: (spell) ->
+    @get('character_spells').findWhere(spell_id: spell.get('id')).destroy
+      success: ->
+        spell.set('known', false)
       error: ->
         throw "Couldn't destroy known spell."
 

@@ -2,7 +2,7 @@
 #= require models/spell
 #= require collections/spells_collection
 
-window.SPKnownSpell = SPModel.extend
+window.SPCharacterSpell = SPModel.extend
 
   relations: [
     {
@@ -11,7 +11,7 @@ window.SPKnownSpell = SPModel.extend
       relatedModel: SPSpell
       relatedCollection: SPSpellsCollection
       reverseRelation:
-        key: 'known'
+        key: 'character_spell'
         type: Backbone.HasOne
     }
   ]
@@ -21,4 +21,4 @@ window.SPKnownSpell = SPModel.extend
   parse: (response) ->
     response.character_spell
 
-SPKnownSpell.setup()
+SPCharacterSpell.setup()

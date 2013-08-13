@@ -3,6 +3,6 @@
 window.SPSpell = SPModel.extend
 
   parse: (response) ->
-    known_spells = @currentUser().get('current_character').get('known_spells')
-    response.known = known_spells.find (ks) -> ks.get('spell_id') == response.id
+    character_spells = @currentUser().get('current_character').get('character_spells')
+    response.known = !!character_spells.find (cs) -> cs.get('spell_id') == response.id
     response
