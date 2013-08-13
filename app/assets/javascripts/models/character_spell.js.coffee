@@ -6,7 +6,7 @@ window.SPCharacterSpell = SPModel.extend
 
   relations: [
     {
-      type: Backbone.HasOne
+      includeInJSON: 'id'
       key: 'spell'
       keySource: 'spell_id'
       relatedModel: SPSpell
@@ -14,6 +14,7 @@ window.SPCharacterSpell = SPModel.extend
       reverseRelation:
         key: 'character_spell'
         type: Backbone.HasOne
+      type: Backbone.HasOne
     }
   ]
 

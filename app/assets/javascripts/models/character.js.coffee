@@ -20,7 +20,7 @@ class window.SPCharacter extends SPModel
         throw "Couldn't create character spell."
 
   destroyCharacterSpell: (spell) ->
-    @get('character_spells').findWhere(spell_id: spell.get('id')).destroy
+    spell.get('character_spell').destroy
       success: ->
         spell.set('known', false)
       error: ->
